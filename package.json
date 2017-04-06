@@ -1,0 +1,28 @@
+{
+  "name": "slack-rmgbot",
+  "version": "1.0.0",
+  "description": "slack bot for rmg POC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allred/slack-rmgbot.git"
+  },
+  "keywords": [
+    "rmg"
+  ],
+  "author": "Mike Allred",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allred/slack-rmgbot/issues"
+  },
+  "homepage": "https://github.com/allred/slack-rmgbot#readme",
+  "dependencies": {
+    "botkit": "^0.5.2",
+    "request": "^2.81.0",
+    "tmp": "0.0.31"
+  }
+}
