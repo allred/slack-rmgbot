@@ -12,6 +12,7 @@ rmgbot = controller.spawn({
   },
 })
 
+console.log(process.argv[2])
 rmgbot.api.files.upload({
   channels: ['#general'],
   file: fs.createReadStream(process.argv[2]),
