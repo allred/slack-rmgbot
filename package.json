@@ -1,4 +1,5 @@
 {
+  "//": "run the rmgbot script to get private env variables, etc",
   "name": "slack-rmgbot",
   "version": "1.0.0",
   "description": "slack bot for rmg POC",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/allred/slack-rmgbot#readme",
   "dependencies": {
     "@google-cloud/vision": "^0.11.0",
+    "aws-sdk": "^2.41.0",
     "botkit": "^0.5.2",
     "request": "^2.81.0",
     "tmp": "0.0.31"
